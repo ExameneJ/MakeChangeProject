@@ -107,7 +107,7 @@ public class CashRegister {
 			}
 
 			pennies = change / .01;
-			if (pennies >= 1) {
+			if (pennies >= 0) {
 				change = change % .01;
 				changeString += (int) Math.ceil(pennies) + " pennies ";
 			}
